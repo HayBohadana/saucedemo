@@ -1,0 +1,10 @@
+pageobjects\ShoppingCart.class
+tests\ByProducts.class
+pageobjects\ProductPage.class
+pageobjects\ProductsPage.class
+utils\Utils.class
+pageobjects\YourCartPage.class
+pageobjects\LoginPage.class
+tests\BaseTest.class
+tests\LoginTest.class
+pageobjects\BasePage.class

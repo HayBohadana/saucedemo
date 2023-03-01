@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51314" started-at="2023-02-28T13:18:29 IST" finished-at="2023-02-28T13:19:20 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51314" started-at="2023-02-28T13:18:29 IST" finished-at="2023-02-28T13:19:20 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@3d3f761a]" name="setup" is-config="true" duration-ms="6432" started-at="2023-02-28T13:18:57 IST" finished-at="2023-02-28T13:19:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_loginFailed()[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc01_loginFailed" duration-ms="2751" started-at="2023-02-28T13:19:03 IST" description="Test with wrong password" finished-at="2023-02-28T13:19:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_loginFailed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="1" started-at="2023-02-28T13:19:06 IST" finished-at="2023-02-28T13:19:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_loginFailed status=SUCCESS method=LoginTest.tc01_loginFailed()[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc02_loginFailed" duration-ms="2687" started-at="2023-02-28T13:19:06 IST" data-provider="getData" finished-at="2023-02-28T13:19:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFailed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:19:08 IST" finished-at="2023-02-28T13:19:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_loginFailed status=SUCCESS method=LoginTest.tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc02_loginFailed" duration-ms="2557" started-at="2023-02-28T13:19:08 IST" data-provider="getData" finished-at="2023-02-28T13:19:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFailed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="1" started-at="2023-02-28T13:19:11 IST" finished-at="2023-02-28T13:19:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_loginFailed status=SUCCESS method=LoginTest.tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc02_loginFailed" duration-ms="2537" started-at="2023-02-28T13:19:11 IST" data-provider="getData" finished-at="2023-02-28T13:19:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[einav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1#444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFailed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="1" started-at="2023-02-28T13:19:14 IST" finished-at="2023-02-28T13:19:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_loginFailed status=SUCCESS method=LoginTest.tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc02_loginFailed" duration-ms="2527" started-at="2023-02-28T13:19:14 IST" data-provider="getData" finished-at="2023-02-28T13:19:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456878]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_loginFailed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:19:16 IST" finished-at="2023-02-28T13:19:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_loginFailed status=SUCCESS method=LoginTest.tc02_loginFailed(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_loginSucceed()[pri:0, instance:tests.LoginTest@3d3f761a]" name="tc03_loginSucceed" duration-ms="2920" started-at="2023-02-28T13:19:16 IST" description="work Test" finished-at="2023-02-28T13:19:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_loginSucceed -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@3d3f761a]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:19:19 IST" finished-at="2023-02-28T13:19:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_loginSucceed status=SUCCESS method=LoginTest.tc03_loginSucceed()[pri:0, instance:tests.LoginTest@3d3f761a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@3d3f761a]" name="tearDown" is-config="true" duration-ms="1189" started-at="2023-02-28T13:19:19 IST" finished-at="2023-02-28T13:19:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ByProducts">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ByProducts@5f7f2382]" name="setup" is-config="true" duration-ms="10515" started-at="2023-02-28T13:18:29 IST" finished-at="2023-02-28T13:18:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_login()[pri:0, instance:tests.ByProducts@5f7f2382]" name="tc01_login" duration-ms="3096" started-at="2023-02-28T13:18:39 IST" finished-at="2023-02-28T13:18:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ByProducts@5f7f2382]" name="failedTest" is-config="true" duration-ms="3" started-at="2023-02-28T13:18:43 IST" finished-at="2023-02-28T13:18:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_login status=SUCCESS method=ByProducts.tc01_login()[pri:0, instance:tests.ByProducts@5f7f2382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_chooseProduct1()[pri:0, instance:tests.ByProducts@5f7f2382]" name="tc02_chooseProduct1" duration-ms="3511" started-at="2023-02-28T13:18:43 IST" finished-at="2023-02-28T13:18:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_chooseProduct1 -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ByProducts@5f7f2382]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:18:46 IST" finished-at="2023-02-28T13:18:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_chooseProduct1 status=SUCCESS method=ByProducts.tc02_chooseProduct1()[pri:0, instance:tests.ByProducts@5f7f2382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_chooseProduct2()[pri:0, instance:tests.ByProducts@5f7f2382]" name="tc03_chooseProduct2" duration-ms="3525" started-at="2023-02-28T13:18:46 IST" finished-at="2023-02-28T13:18:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_chooseProduct2 -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ByProducts@5f7f2382]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:18:50 IST" finished-at="2023-02-28T13:18:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_chooseProduct2 status=SUCCESS method=ByProducts.tc03_chooseProduct2()[pri:0, instance:tests.ByProducts@5f7f2382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_checkout()[pri:0, instance:tests.ByProducts@5f7f2382]" name="tc04_checkout" duration-ms="5110" started-at="2023-02-28T13:18:50 IST" finished-at="2023-02-28T13:18:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_checkout -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:tests.ByProducts@5f7f2382]" name="failedTest" is-config="true" duration-ms="0" started-at="2023-02-28T13:18:55 IST" finished-at="2023-02-28T13:18:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_checkout status=SUCCESS method=ByProducts.tc04_checkout()[pri:0, instance:tests.ByProducts@5f7f2382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ByProducts@5f7f2382]" name="tearDown" is-config="true" duration-ms="1613" started-at="2023-02-28T13:18:55 IST" finished-at="2023-02-28T13:18:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ByProducts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
